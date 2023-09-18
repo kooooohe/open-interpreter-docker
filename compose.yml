@@ -1,0 +1,12 @@
+services:
+    app:
+      build:
+        context: .
+      tty: true
+      working_dir: /app
+      volumes:
+        - type: bind
+          source: ./app
+          target: /app
+      env_file:
+        - ./.env
