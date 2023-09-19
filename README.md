@@ -17,9 +17,11 @@ docker compose up
 
 #### Run app
 
+
 put your api key on .env
 `OPENAI_API_KEY=YOURKEY`
 ```sh
+docker compose exec app bash
 root@hostname:~# interpreter
 ```
 
