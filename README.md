@@ -22,7 +22,7 @@ put your api key on .env
 `OPENAI_API_KEY=YOURKEY`
 ```sh
 docker compose exec app bash
-root@hostname:~# interpreter
+root@hostname:~# interpreter // interpreter --model gpt-4-1106-preview -y
 ```
 
 ## References
